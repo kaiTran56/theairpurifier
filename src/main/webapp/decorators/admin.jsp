@@ -7,6 +7,9 @@
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="<c:url value='/template/web/icon/cat.ico'/>"
+	type="image/icon type">
+
 <link rel="apple-touch-icon" sizes="76x76"
 	href="<c:url value ='/template/admin/assets/img/apple-icon.png'/>">
 <link rel="icon" type="image/png"
@@ -34,9 +37,8 @@
 <body class="">
 	<div class="wrapper">
 		<%@include file="/common/admin/menu.jsp"%>
+
 		<%@include file="/common/admin/header.jsp"%>
-
-
 
 		<dec:body />
 
@@ -67,13 +69,7 @@
 					class="badge light-badge mr-2"></span> <span
 					class="badge dark-badge ml-2"></span> <span class="color-label">DARK
 						MODE</span></li>
-				<li class="button-container"><a
-					href="https://www.creative-tim.com/product/black-dashboard"
-					target="_blank" class="btn btn-primary btn-block btn-round">Download
-						Now</a> <a
-					href="https://demos.creative-tim.com/black-dashboard/docs/1.0/getting-started/introduction.html"
-					target="_blank" class="btn btn-default btn-block btn-round">
-						Documentation </a></li>
+				
 				<li class="header-title">Thank you for 95 shares!</li>
 				<li class="button-container text-center">
 					<button id="twitter" class="btn btn-round btn-info">
@@ -110,7 +106,7 @@
 	<!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
 	<script
 		src="<c:url value ='/template/admin/assets/js/black-dashboard.min.js?v=1.0.0'/>"></script>
-
+	<script src="<c:url value ='/template/admin/assets/demo/demo.js'/>"></script>
 	<script>
 		$(document)
 				.ready(

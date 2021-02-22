@@ -13,17 +13,45 @@ public class HomeController {
 		return mav;
 	}
 
-	
-	
-	@RequestMapping(value = { "/admin/map.html" }, method = RequestMethod.GET)
+	@RequestMapping(value = { "/admin/icon" }, method = RequestMethod.GET)
+	public ModelAndView goIcon() {
+		ModelAndView mav = new ModelAndView("admin/icons");
+		return mav;
+	}
+
+	@RequestMapping(value = { "/admin/map" }, method = RequestMethod.GET)
 	public ModelAndView goMap() {
 		ModelAndView mav = new ModelAndView("admin/map");
 		return mav;
 	}
-	
-	@RequestMapping(value = { "/admin/notif.html" }, method = RequestMethod.GET)
+
+	@RequestMapping(value = { "/admin/notif" }, method = RequestMethod.GET)
 	public ModelAndView goNotification() {
 		ModelAndView mav = new ModelAndView("admin/notifications");
+		return mav;
+	}
+
+	@RequestMapping(value = { "/admin/table" }, method = RequestMethod.GET)
+	public ModelAndView goTable() {
+		ModelAndView mav = new ModelAndView("admin/tables");
+		return mav;
+	}
+
+	@RequestMapping(value = { "/admin/typo" }, method = RequestMethod.GET)
+	public ModelAndView goTypography() {
+		ModelAndView mav = new ModelAndView("admin/typography");
+		return mav;
+	}
+
+	@RequestMapping(value = { "/admin/upgrade" }, method = RequestMethod.GET)
+	public ModelAndView goUpgrade() {
+		ModelAndView mav = new ModelAndView("admin/upgrade");
+		return mav;
+	}
+
+	@RequestMapping(value = { "/admin/user" }, method = RequestMethod.GET)
+	public ModelAndView goUser() {
+		ModelAndView mav = new ModelAndView("admin/user");
 		return mav;
 	}
 }

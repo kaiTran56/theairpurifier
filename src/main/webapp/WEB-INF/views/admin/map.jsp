@@ -1,7 +1,7 @@
 
 
 <div class="main-panel">
-
+<%@include file="/common/admin/search-bar.jsp"%>
 	<div class="content">
 		<div class="row">
 			<div class="col-md-12">
@@ -14,3 +14,4 @@
 			</div>
 		</div>
 	</div>
+</div>

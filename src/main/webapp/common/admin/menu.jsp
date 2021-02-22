@@ -9,44 +9,41 @@
     -->
 	<div class="sidebar-wrapper">
 		<div class="logo">
-			<a href="javascript:void(0)" class="simple-text logo-mini"> CT </a> <a
-				href="javascript:void(0)" class="simple-text logo-normal">
-				Creative Tim </a>
+			<a href="javascript:void(0)" class="simple-text logo-mini"> </a> <a
+				href="javascript:void(0)" class="simple-text logo-normal"
+				href="<c:url value='/admin/home'/>">ADMIN</a>
 		</div>
 		<ul class="nav">
-			<li class="active "><a href="./dashboard.html"> <i
-					class="tim-icons icon-chart-pie-36"></i>
-					<p>Dashboard</p>
+			<li class="active "><a href="<c:url value='/admin/home'/>">
+					<i class="tim-icons icon-chart-pie-36" style="size: 40px"></i>
+					<p>Home</p>
 			</a></li>
-			<li><a href="./icons.html"> <i class="tim-icons icon-atom"></i>
+			<li><a href="<c:url value='/admin/icon'/>"> <i
+					class="tim-icons icon-atom"></i>
 					<p>Icons</p>
 			</a></li>
-			<li><a href="./map.html"> <i class="tim-icons icon-pin"></i>
+			<li><a href="<c:url value='/admin/map'/>"> <i
+					class="tim-icons icon-pin"></i>
 					<p>Maps</p>
 			</a></li>
-			<li><a href="./notifications.html"> <i
+			<li><a href="<c:url value='/admin/notif'/>"> <i
 					class="tim-icons icon-bell-55"></i>
 					<p>Notifications</p>
 			</a></li>
-			<li><a href="./user.html"> <i
+			<li><a href="<c:url value='/admin/user'/>"> <i
 					class="tim-icons icon-single-02"></i>
 					<p>User Profile</p>
 			</a></li>
-			<li><a href="./tables.html"> <i
+			<li><a href="<c:url value='/admin/table'/>"> <i
 					class="tim-icons icon-puzzle-10"></i>
 					<p>Table List</p>
 			</a></li>
-			<li><a href="./typography.html"> <i
+			<li><a href="<c:url value='/admin/typo'/>"> <i
 					class="tim-icons icon-align-center"></i>
 					<p>Typography</p>
 			</a></li>
-			<li><a href="./rtl.html"> <i class="tim-icons icon-world"></i>
-					<p>RTL Support</p>
-			</a></li>
-			<li class="active-pro"><a href="./upgrade.html"> <i
-					class="tim-icons icon-spaceship"></i>
-					<p>Upgrade to PRO</p>
-			</a></li>
+
+
 		</ul>
 	</div>
 </div>

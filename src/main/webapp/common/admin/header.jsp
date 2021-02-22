@@ -17,7 +17,7 @@
 					class="navbar-toggler-bar bar3"></span>
 			</button>
 		</div>
-		<a class="navbar-brand" href="javascript:void(0)">Dashboard</a>
+		<a class="navbar-brand" href="javascript:void(0)">May Loc Khong Khi</a>
 	</div>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navigation" aria-expanded="false"
